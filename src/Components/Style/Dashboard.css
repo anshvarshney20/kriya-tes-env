@@ -1,0 +1,131 @@
+.dash-main{
+    width: 100%;
+    height: 100vh;
+}
+.dash-nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.dash-left{
+    font-family: 'Arvo', serif;
+}
+.dash-right{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.creator-information{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif; 
+}
+.creator-detail{
+    width: 100%;
+    /* padding: 15px; */
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.creator-info{
+    width: 225%;
+    padding-left: 75px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.creator-followers{ 
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /* background-color: yellowgreen; */
+}
+.creator-detail {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+thead{
+    width: 50%;
+}
+tr{
+    width: 100%;
+}
+.dash-creator{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(154, 153, 153);
+}
+.d-creator-profile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.d-creator-l{
+    width: 50%;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+.d-creator-l h4{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-left: 80px;
+    padding: 3px;
+}
+.d-creator-profile img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.d-creator-r{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    /* background-color: aliceblue; */
+    font-size: 1.3rem;
+}
+.d-creator-r h4{
+    background-color: green;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    font-size: 1.1rem;
+}
+.d-creator-r .opreation{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    width: 25%;
+}
+
+tbody{
+    width: 46%;
+}
+tbody tr{
+    width: 100%;
+}
+.tbody-td{
+    width: 200%;
+}

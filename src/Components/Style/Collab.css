@@ -1,0 +1,305 @@
+.Collab-main{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);  
+      font-family: 'Raleway', sans-serif;
+    color: white;
+    position: relative;
+}
+:root{
+    --main-color: rgb(45, 43, 43);
+    --ptext-color: #302E2E;
+}
+.c-top{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+.c-top h1{
+    margin-top: 10px;
+    font-size: 2.3rem;
+    text-align: center;
+    color: var(--main-color);
+    font-family: 'Arvo', serif;
+    /* background: url(/src/Components/images/collab-img1.webp); */
+} 
+.c-inner{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.c-left{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+}
+.c-left h1{
+    text-align: left;
+}
+.c-left h1 span{
+    color: #302E2E;
+}
+.c-left h3{
+    line-height: 28px;
+    font-size: 1.4rem;
+    color: var(--ptext-color);
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+}
+.collab-btn{
+    
+}
+.c-right{
+    border-radius: 20px;
+    width: 40%;
+    height: 80%;
+    background-image: url(/src/Components/images/bg-remov2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* #collab-wave{
+    position: absolute;
+    bottom: -10%;
+} */
+
+.collab-form{
+    width: 100%;
+    height: 130vh;
+    padding: 20px;
+}
+
+.cf-inner{
+    width: 100%;
+    height: 105vh;
+    /* border: 2px solid seashell; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cf-l{
+    width: 50%;
+    height: 100%;
+    background: url(/src/Components/images/collab-5gif.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cf-l img{
+    width: 115px;
+    object-fit: contain;
+    height: 213px;
+    position: absolute;
+    left: 40%;
+    top: 12%;
+}
+.cf-r{
+    width: 50%;
+    height: 90%;
+    padding: 10px;
+    /* background-color: #b371c3; */
+    border: 2px solid white;
+    /* background-image: url(/src/Components/images/qr\ code.png); */
+    /* background-image: linear-gradient(to right, #7870ca 30%, #ffb9ff );   */
+    border-radius: 20px;
+}
+.cf-hrading{
+    padding-left: 20px;
+    color: #302E2E;
+    text-align: center;
+}
+.cf-hrading h1{
+    font-size: 2.5rem;
+}
+.cf-hrading h3{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.cf-hrading h3 span{
+    color: whitesmoke;
+}
+
+.cf-r form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.cf-r form input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.select{
+    width: 70%;
+    display: flex;
+    padding: 10px;
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.sel-one{
+    border-top: 2px solid whitesmoke;
+}
+.select select {
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+#collab-wave{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+@media screen and (max-width: 870px) {
+    .c-left{
+        text-align: center;
+    }
+    .c-left h1{
+        text-align: center;
+    }
+    .c-inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .c-left{
+        width: 100%;
+        height: 100%;
+        ALIGN-ITEMS: center;
+    }
+    .c-right{
+        width: 100%;
+        height: 100%;
+        background-size: 52%;
+    }
+    .cf-l{
+        background-size: 80%;
+    }
+    .cf-r{
+        width: 90%;
+        height: 100%;
+    }
+    .cf-r form{
+        height: 85%;
+    }
+    .c-inner{
+        height: 90%;
+    }
+    #collab-wave{
+        bottom: -2%;
+    }
+    .cf-inner{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:  500px) {
+    .c-inner{
+        padding: 0px;
+        height: 100%;
+        justify-content: space-between;
+    }
+    .c-left{
+        padding: 0px;
+        
+    }
+    .c-top{
+        padding: 0px;
+    }
+    .c-top h1{
+        font-size: 2rem;
+    }
+    .cf-inner{
+        height: 105vh;
+    }
+
+    .cf-l{
+        width: 70%;
+    }
+    .cf-r{
+        width: 98%;
+        height: 120%;
+    }
+    .cf-r form{
+        height: 82%;
+    }
+    .select{
+        width: 100%;
+        padding: 5px 0px;
+    }
+    #collab-wave{
+        bottom: -1%;
+    }
+}
+
+
+@media screen and (max-width: 397px) {
+
+    .c-top h1{
+        font-size: 1.5rem;
+    }
+
+    .c-left{
+        margin: 20px;
+        height: 120%;
+    }
+    .c-left h3{
+        line-height: normal;
+        font-size: 1.2rem;
+    }
+    .c-inner{
+        height: 90%;
+    }
+    .c-right{
+        background-size: 75%;
+    }
+    .cf-r{
+    width: 104%;
+    height: 160%;
+    }
+    .cf-r form input{
+        width: 85%;
+    }
+    .cf-hrading h1 {
+        font-size: 1.6rem;
+    }
+    .cf-hrading h3 {
+        font-size: 1rem;
+    }
+    .cf-r form {
+        padding-left: 0px;
+        height: 85%;
+    }
+    .select label{
+        font-size: 18px;
+    }
+
+
+}

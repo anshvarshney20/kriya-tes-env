@@ -1,0 +1,90 @@
+.contact{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);
+    position: relative;
+    overflow: hidden;
+}
+
+.cimg1{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    left: 10%;
+}
+.cimg2{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+.cimg3{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 10%;
+}
+
+#wave{
+    position: absolute;
+    bottom: 1;
+}
+.contact-inner{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.form{
+    width: 50%;
+    margin-top: 30px;
+    height: 70%;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 30px;
+    /* box-shadow: 13px 10px 5px #ffb9ff;
+    border: 2px solid  #7870ca; */
+    /* border-radius: 30px; */
+    border: 2px solid white;
+    box-shadow: 10px 14px 13px #ffb9ff;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: start;
+    z-index: 10;
+    justify-content: space-between;
+}
+
+.form input,textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    padding: 15px 20px;
+    font-size: 1rem;
+}
+.form button{
+    margin: 0 auto;
+    width: 60%;
+}
+
+@media screen and (max-width: 667px) {
+    .form{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+.form{
+    width: 88%;
+    padding: 20px;
+    height: 50%;
+    margin-top: 50%;
+}   
+
+}

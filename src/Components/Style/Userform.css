@@ -1,0 +1,117 @@
+/* UserProfileForm.css */
+
+.user-profile-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);
+
+  /* background-color: #f0f0f0; Set your desired background color */
+}
+
+.user-card {
+  width: 80%;
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ddd; /* Set your desired background color */
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label-input-group label {
+  margin-bottom: 5px;
+}
+
+.label-input-group input,
+.label-input-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.u-button{
+    width: 100%;
+} 
+button {
+  background-color: #007bff; /* Set your desired button color */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Set your desired button hover color */
+}
+/* UserProfileForm.css */
+
+.user-profile-form-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; /* Set the height to 100% of the viewport height */
+background-image: linear-gradient(to right, #ffb9ff 30%, #7870ca);
+overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+.user-card {
+width: 80%;
+max-height: 80vh; /* Set a maximum height for the user card */
+display: flex;
+background-color: white;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #ddd; /* Set your desired background color */
+}
+
+.right-side {
+flex: 1;
+padding: 20px;
+overflow-y: auto; /* Add scroll only if content overflows */
+}

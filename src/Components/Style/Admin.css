@@ -1,0 +1,151 @@
+.login-main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #ffb9ff 30%, #7870ca);
+    position: relative;
+}
+.login-inner h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arvo', serif;
+    color: white;
+}
+.login-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.login-box{
+    width: 40%;
+    height: 40%;
+    background-color: rgba(204, 204, 204, 0.578);
+    z-index: 88;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.login-l{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+.login-r{
+    width: 80%;
+    height: 100%;
+}
+.login-r form{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 16px;
+}
+form h3{
+    font-size: 1.5rem;
+}
+.input-e{   
+    width: 80%;
+    /* background-color: aqua; */
+    padding-left: 5px;
+    border-bottom: 2px solid grey;
+}
+.input-e i{
+    display: inline-block;
+}
+
+.login-r form input{
+    margin-top: 30px;
+    width: 82%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    color: #ff007b;
+    outline: none;
+}
+.admin-btn {
+    --color: white;
+    --color2: whitesmoke;
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid black;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 17px;
+    /* font-family: 'Roboto', 'Segoe UI', sans-serif; */
+    text-transform: uppercase;
+    color: white;
+    width: fit-content;
+    width: 60%;
+    margin: 0px auto;
+    background-image: linear-gradient(to right,  #7870ca 30%, #ffb9ff);
+    /* background:linear-gradient(to right, #C8EBF1 45%,#EDE1E1) ; */
+    /* background-color: black; */
+}
+
+.admin-btn::after,
+.admin-btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: whitesmoke;
+}
+
+.admin-btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.admin-btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.admin-btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+}
+
+.admin-btn:hover {
+    color: black;
+}
+
+.admin-btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+}
+
+.login-inner img{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    object-fit: contain;
+}
+.l-img1{
+    top: 10%;
+    left: 5%;
+}
+.l-img2{
+    right: 10%;
+    bottom: 5%;
+}

@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background:linear-gradient(to right, #C8EBF1 45%,#EDE1E1) ; */
+}
+@font-face {
+  font-family: 'head-font';
+  src: url(./Components/Fonts/Big-head-font/FontsFree-Net-radnika-next-bold.ttf);
+}
+@font-face {
+  font-family: 'sideh-font';
+  src: url(./Components/Fonts/Side-head--font/aero\ matics\ regular.ttf);
+}
+@font-face {
+  font-family: 'text-font';
+  src: url(./Components/Fonts/text-font/nordicaclassiclightcon.otf );
+}
